@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Name Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>名字生成器</h1>
+    <form id="nameForm">
+        <label for="birthDate">出生日期：</label>
+        <input type="date" id="birthDate"><br>
+        
+        <label for="gender">性别：</label>
+        <select id="gender">
+            <option value="male">男</option>
+            <option value="female">女</option>
+        </select><br>
+        
+        <label for="city">出生城市：</label>
+        <input type="text" id="city"><br>
+        
+        <button type="submit">生成名字</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
